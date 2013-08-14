@@ -1,0 +1,137 @@
+@font-face {font-family: 'Miso';src: url('../webfonts/2564B0_0_0.eot');src: url('../webfonts/2564B0_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2564B0_0_0.woff') format('woff'),url('../webfonts/2564B0_0_0.ttf') format('truetype');}
+ @font-face {font-family: 'Miso-Bold';src: url('../webfonts/2564B0_1_0.eot');src: url('../webfonts/2564B0_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2564B0_1_0.woff') format('woff'),url('../webfonts/2564B0_1_0.ttf') format('truetype');}
+
+
+body {
+	width:100%;
+	background-size: cover;
+	background-image: url('../img/bg.jpg');
+	font-family:'Miso';
+-webkit-font-smoothing: antialiased;
+
+	text-align:center;
+}
+
+* { margin: 0; padding: 0; }
+
+html { 
+	height:100%;
+	width:100%;
+	display:block;
+	top:0px;
+	box-shadow: inset 0px 0px 200px rgba(0,0,0,0.1);
+	z-index:-12;
+}   
+
+.logo {
+	background-color:black;
+	padding:60px 20px 0 20px;
+	height:585px;
+	width:200px;
+	margin:auto;
+}       
+    
+span {
+}
+
+h2 {
+	color:#FFA814;
+	font-weight:normal;
+	font-size:28px;
+	line-height:32px;
+	margin-top:30px;
+}
+
+h1 {
+	color:white;
+	font-family:'Miso-Bold';
+	font-weight:normal;
+	font-size:54px;
+	line-height:56px;
+}
+
+.main {
+	padding-top:75px;
+}
+
+.links {
+	margin:400px 0 0 0;
+	display:inline-block;
+	clear:both;
+}
+
+.link {
+	background-image:url('../img/links.png');
+	background-size:35px 100px;
+	height:33px;
+	width:35px;
+	display:block;
+	float:left;
+}
+
+.facebook {
+	background-position:0px 67px;
+	margin-left:10px;
+}
+
+.mail {
+	background-position:0px 33px;
+	margin-left:10px;
+}	
+
+.main {
+	width:600px;
+	margin:auto;
+}
+
+.construction_image {
+	width:586px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+	
+	h1 {
+		font-size:45px;
+	}
+
+	.construction_image {
+		width:100%;
+		background-repeat:no-repeat;
+		display:block;
+	}
+	
+	.main {
+		position:absolute;
+		display:block;
+		width:100%;
+		padding-top:0px;
+		box-shadow: inset 0px 0px 200px rgba(0,0,0,0.1);
+	}
+	
+	.wrapper {
+		padding:10px;
+	}
+	
+	html {
+		box-shadow:none;
+	}
+	
+	.desktop-break {
+		display:none;
+	}
+	
+	.links {
+		margin-top:30px;
+	}
+	
+	.logo {
+		height:200px;
+	}
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+	.main {
+		padding-top:115px;
+}
+
+  
